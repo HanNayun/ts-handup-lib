@@ -1,0 +1,23 @@
+{
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "module": "CommonJS",
+    "declaration": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "outDir": "dist"
+  }
+}
